@@ -1,0 +1,196 @@
+body {
+    background-color: white;
+}.header {
+    background-image: url("http://eskipaper.com/images/dark-background-1.jpg");
+    text-align: center;
+    font-size:3em;
+    border-style: groove;
+    padding:1em;
+    opacity:0.9;
+    width:100%;
+}
+
+.headerTitle {
+    color:white;
+    font-family: cursive;
+}
+.headerSlogan {
+    font-size: 0.9em;
+    border:double;
+    display:inline;
+}
+
+.headerSlogan p {
+    background-color: aliceblue;
+    display:inline;
+}
+
+nav {
+    background-color:white;
+    font-size:2em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap
+}
+
+.page {
+    background-image: url("https://forum.affinity.serif.com/uploads/monthly_10_2014/post-2036-0-19705900-1414067472.png");
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.pricing {
+    text-align:center;
+    border:groove;
+    margin:5em;
+    display:flex;
+    flex-direction:column;
+    max-width: 1000px;
+    padding:1em;
+}
+
+.pricing h1, .themes h1, .contact h1, .contact {
+    display:inline-block;
+   
+    color:whitesmoke;
+        background-color:black;
+    opacity:0.9;
+}
+
+.pricing-items {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+
+.priceClass {
+    
+    text-align:center;
+    border-style: double;
+    margin:5px 30px;
+    padding:1em;
+    background-color:aliceblue
+}
+
+.themes {
+    text-align:center;
+    border:groove;
+    margin:10em;
+    display:flex;
+    flex-direction:column;
+    max-width: 1000px;
+    padding:1em;
+}
+
+.theme-items{
+    text-align: center;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.themeChoice1 {
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    background-image:url("https://4.bp.blogspot.com/-1Oso6s0rOGk/WExrg8NQwSI/AAAAAAAAt-w/jdf34yII5bwn1I0ha1dXxfgcB_X8bTBdACLcB/s1600/Himalayan%2BPlants%2B4.jpg");
+    opacity:0.90;
+}
+
+.themeChoice1 li {
+    color:white;
+    background:black;
+    display:inline-block;
+    
+}
+
+.themeChoice2 {
+    
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    background-image:url("http://www.mauiinformationguide.com/img/_freebies/twitter-hawaii-backgrounds/backs/palm-tree.jpg");
+    opacity:0.90;
+    
+}
+.themeChoice2 h2, .themeChoice2 li{
+    color:black;
+    background:#fff;
+    display:inline-block;
+    opacity:1;
+}
+
+
+.themeChoice3 {
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    background-image:url("http://allswalls.com/images/snow-nordic-wallpaper-1.jpg");
+    opacity:0.90;
+}
+
+.themeChoice3 h2, .themeChoice3 li{
+    color:white;
+    background:black;
+    display:inline-block;
+}
+
+ul {
+    list-style: none;
+    padding:inherit;
+}
+
+.contactInfo {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.contactFacebook, .contactInstagram, .contactTwitter {
+    height:5em;
+    width:5em;
+}
+
+.contact img {
+	max-width:100%;
+	height:auto;
+}
+
+.contact, .about   {
+    text-align:center;
+    border:groove;
+    margin:5em;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 1000px;
+    background-color:#111;
+	padding-bottom: 10px;
+	
+}
+
+form {
+	background-color:black;
+	color:white;
+}
+.about {
+	color:skyblue;
+}
+
+img {
+	width:4em;
+	height:auto;
+}
